@@ -8,5 +8,25 @@
   },
   "author": "rara",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.4",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeonmark/login_restb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leeonmark/login_restb/issues"
+  },
+  "homepage": "https://github.com/leeonmark/login_restb#readme"
 }

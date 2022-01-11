@@ -18,6 +18,6 @@ app.use(express.urlencoded({ extended: false }));
 
 //Routes
 app.use('/', require('./routes/index'));
-app.use('/users', require('./routes/users'));
+app.use('/users', require('./routes/JWT'));
 
 app.listen(3000); 
